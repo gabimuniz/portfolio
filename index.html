@@ -57,21 +57,6 @@
 				text-decoration: none;
 			}
 
-			.access:hover:before {
-				width: 100%;
-			}
-
-			.access:before {
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 0%;
-				height: 1px;
-				background-color: #333;
-				transition: all .5s;
-				content: '';
-			}
-
 			.role {
 				font-size: 24px;
 				font-weight: 400;
@@ -107,6 +92,20 @@
 				content: '';
 			}
 
+			a.btn-more {
+				display: inline-block;
+				padding: 10px;
+				margin: 20px 0;
+				border-radius: 5px;
+				color: #fff;
+				background-color: #666bad;
+				transition: all .4s;
+			}
+
+			a.btn-more:hover {
+				background-color: #8f94cb;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -116,7 +115,7 @@
 				<h2 class="me">Gabrielle Muniz</h2>
 				<h3 class="role">Portfólio</h3>
 				<h4 class="access">
-					<a href="https://gabimuniz.github.io/portfolio/pdf/portfolio-grabrielle-muniz-designer.pdf" target="_blank">Ver</a>
+					<a href="https://gabimuniz.github.io/portfolio/pdf/portfolio-grabrielle-muniz-designer.pdf" target="_blank" class="btn-more">Dê uma olhada!</a>
 				</h4>
 			</div>
 
